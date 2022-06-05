@@ -13,4 +13,14 @@
     background-color: #595959;
     color: #F2C84B;
   }
+
+  &:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+
+    &:hover {
+      background-color: #F2C84B;
+      color: #595959;
+    }
+  }
 }
