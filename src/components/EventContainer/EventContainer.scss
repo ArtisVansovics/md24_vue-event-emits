@@ -1,0 +1,16 @@
+.event-container {
+  display: flex;
+  flex-flow: column;
+  gap: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #F2E7AC;
+}
+
+.row {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
