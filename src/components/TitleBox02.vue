@@ -6,7 +6,7 @@
       </h2>
     </template>
     <MainForm>
-      <TextInput placeholder-text="Update title..." v-model.lazy="inputValue" />
+      <TextInput placeholder-text="Update title..." v-model="inputValue" />
     </MainForm>
   </EventContainer>
 </template>
