@@ -1,5 +1,5 @@
 <template>
-  <div class="square" :style="{ backgroundColor: currentColor }"></div>
+  <div class="square" :style="{ backgroundColor: currentColor }" />
 </template>
 
 <script lang="ts">
