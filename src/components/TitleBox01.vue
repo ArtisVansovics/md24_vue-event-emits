@@ -1,8 +1,10 @@
 <template>
   <EventContainer>
-    <template #header
-      ><h2>{{ currentTitle }}</h2></template
-    >
+    <template #header>
+      <h2>
+        {{ currentTitle }}
+      </h2>
+    </template>
     <MainForm :onSubmit="updateTitle">
       <TextInput placeholder-text="Update title..." v-model="inputValue" />
       <MainButton>Submit</MainButton>
@@ -25,9 +27,6 @@ export default defineComponent({
     currentTitle: "Title",
   }),
   methods: {
-    test() {
-      console.log("check");
-    },
     updateTitle() {
       this.currentTitle = this.inputValue;
 
