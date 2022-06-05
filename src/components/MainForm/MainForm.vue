@@ -1,6 +1,7 @@
 <template>
   <form class="form" v-on:submit.prevent="submitHandler">
-    <slot></slot>
+    <div class="row"><slot></slot></div>
+    <div class="row"><slot name="second-row"></slot></div>
   </form>
 </template>
 
