@@ -1,19 +1,18 @@
 <template>
   <div class="app">
-    <img alt="Vue logo" src="./assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js + TypeScript App" />
+    <div class="container">
+      <TitleBox01 />
+    </div>
   </div>
 </template>
 
 <script lang="ts">
 import { defineComponent } from "vue";
-import HelloWorld from "./components/HelloWorld.vue";
+import TitleBox01 from "@/components/TitleBox01/TitleBox01.vue";
 
 export default defineComponent({
   name: "App",
-  components: {
-    HelloWorld,
-  },
+  components: { TitleBox01 },
 });
 </script>
 

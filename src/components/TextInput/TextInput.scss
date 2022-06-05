@@ -8,4 +8,9 @@
   &:focus {
     outline: #F2C166 3px solid;
   }
+
+  &::placeholder {
+    color: #F2E7AC;
+    opacity: 1;
+  }
 }

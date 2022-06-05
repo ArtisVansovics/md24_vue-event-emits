@@ -5,5 +5,19 @@
   text-align: center;
   color: #012E40;
   background-color: #8FADBF;
+  font-size: 18px;
   height: 100vh;
+  padding: 30px;
+}
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+
+  @media screen and (max-width: 786px){
+    grid-template-columns: 1fr;
+  }
 }
