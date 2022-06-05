@@ -10,6 +10,7 @@
       <div class="column">
         <DescriptionBox01 />
         <DescriptionBox02 />
+        <VisibilityBox01 />
       </div>
     </div>
   </div>
@@ -23,10 +24,12 @@ import ColorBox01 from "@/components/ColorBox01.vue";
 import ColorBox02 from "@/components/ColorBox02.vue";
 import DescriptionBox01 from "@/components/DescriptionBox01.vue";
 import DescriptionBox02 from "@/components/DescriptionBox02.vue";
+import VisibilityBox01 from "@/components/VisibilityBox01.vue";
 
 export default defineComponent({
   name: "App",
   components: {
+    VisibilityBox01,
     DescriptionBox02,
     DescriptionBox01,
     ColorBox02,
