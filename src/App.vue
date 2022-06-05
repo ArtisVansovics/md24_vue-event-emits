@@ -1,18 +1,23 @@
 <template>
   <div class="app">
     <div class="container">
-      <TitleBox01 />
+      <div class="column">
+        <TitleBox01 />
+        <TitleBox02 />
+      </div>
+      <div class="column"></div>
     </div>
   </div>
 </template>
 
 <script lang="ts">
 import { defineComponent } from "vue";
-import TitleBox01 from "@/components/TitleBox01/TitleBox01.vue";
+import TitleBox01 from "@/components/TitleBox01.vue";
+import TitleBox02 from "@/components/TitleBox02.vue";
 
 export default defineComponent({
   name: "App",
-  components: { TitleBox01 },
+  components: { TitleBox01, TitleBox02 },
 });
 </script>
 
