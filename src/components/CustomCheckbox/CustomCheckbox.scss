@@ -1,0 +1,31 @@
+.checkbox {
+  -webkit-appearance: none;
+  appearance: none;
+  position: relative;
+  border-radius: 2px;
+  border: #648C81 2px solid;
+  padding: 10px;
+  background-color: #F2E7AC;
+  cursor: pointer;
+}
+
+.checked {
+  background-color: #F2C166;
+  &:before {
+    content: '';
+    position: absolute;
+    left: 4px;
+    top: 7px;
+    background: white;
+    width: 4px;
+    height: 5px;
+    box-shadow:
+            2px 0 0 white,
+            4px 0 0 white,
+            4px -2px 0 white,
+            4px -4px 0 white,
+            4px -6px 0 white,
+            4px -8px 0 white;
+    transform: rotate(45deg);
+  }
+}
