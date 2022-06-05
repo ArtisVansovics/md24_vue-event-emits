@@ -4,6 +4,8 @@
       <div class="column">
         <TitleBox01 />
         <TitleBox02 />
+        <ColorBox01 />
+        <ColorBox02 />
       </div>
       <div class="column"></div>
     </div>
@@ -14,10 +16,12 @@
 import { defineComponent } from "vue";
 import TitleBox01 from "@/components/TitleBox01.vue";
 import TitleBox02 from "@/components/TitleBox02.vue";
+import ColorBox01 from "@/components/ColorBox01.vue";
+import ColorBox02 from "@/components/ColorBox02.vue";
 
 export default defineComponent({
   name: "App",
-  components: { TitleBox01, TitleBox02 },
+  components: { ColorBox02, TitleBox01, TitleBox02, ColorBox01 },
 });
 </script>
 
