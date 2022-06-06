@@ -25,6 +25,7 @@
 .column {
   display: grid;
   grid-template-columns: 1fr;
+  grid-template-rows: repeat(4, minmax(200px, max-content));
+  align-items: stretch;
   gap: 20px;
-  align-items: center;
 }
