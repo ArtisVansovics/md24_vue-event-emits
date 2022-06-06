@@ -6,7 +6,7 @@
         <MainButton>Toggle</MainButton>
       </template>
     </MainForm>
-    <AdjustableSquare v-if="squareVisibility" />
+    <AdjustableSquare v-if="squareVisibility" :current-color="squareColor" />
   </EventContainer>
 </template>
 
@@ -27,6 +27,7 @@ export default defineComponent({
   },
   data: () => ({
     squareVisibility: true,
+    squareColor: "#F2C166",
   }),
   methods: {
     toggleVisibility() {
